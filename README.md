@@ -121,7 +121,7 @@ This project aims to analyze historical price data and build forecasting models 
 
 ## Project Structure
 
-* notebook / script – time series analysis and modeling
+* analysis.R – time series analysis and modeling
 * data/ – dataset
 * README.md – project overview
 
