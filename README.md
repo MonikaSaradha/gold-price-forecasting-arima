@@ -6,6 +6,8 @@ This project applies time series analysis techniques to forecast gold prices usi
 
 The analysis includes data preprocessing, trend and seasonality decomposition, and the application of forecasting models such as Holt-Winters and ARIMA to understand and predict price movements.
 
+This project demonstrates a full time-series forecasting pipeline, from data preprocessing to model validation and forecasting.
+
 ---
 
 ## Dataset
@@ -77,6 +79,8 @@ This project aims to analyze historical price data and build forecasting models 
   * Residual analysis
   * Ljung-Box test
 
+* Model validity was assessed using residual diagnostics and Ljung-Box test, ensuring residuals behave approximately as white noise.
+
 ---
 
 ## Key Insights
@@ -114,14 +118,15 @@ This project aims to analyze historical price data and build forecasting models 
 
 ## Tech Stack
 
-* R (forecast, tseries, ggplot2)
-* Time series modeling (ARIMA, Holt-Winters)
+* R (forecast, tseries, ggplot2, imputeTS)
+* Time Series Modeling (ARIMA, Holt-Winters)
 
 ---
 
 ## Project Structure
 
-* analysis.R – time series analysis and modeling
-* data/ – dataset
+* analysis.R – data preprocessing, decomposition, ARIMA & Holt-Winters modeling
+* data/ – historical gold price dataset 
 * README.md – project overview
+* project_report.pdf – detailed academic report (supporting material)
 
